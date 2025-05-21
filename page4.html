@@ -5,26 +5,15 @@
   <title>NASA NO₂ Slider</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100vw;
-      height: 100vh;
-      border: none;
-    }
+    html, body { margin:0; height:100%; display:flex; align-items:center; justify-content:center; }
+    a { font-size:1.2rem; text-decoration:none; color:#0066cc; }
   </style>
 </head>
 <body>
-  <iframe
-    src="https://airquality.gsfc.nasa.gov/slider/changes-nitrogen-dioxide-usa-2005-2022"
-    allowfullscreen>
-  </iframe>
+  <a href="https://airquality.gsfc.nasa.gov/slider/changes-nitrogen-dioxide-usa-2005-2022"
+     target="_blank"
+     rel="noopener">
+    View the NASA NO₂ Slider (opens in new tab)
+  </a>
 </body>
 </html>
